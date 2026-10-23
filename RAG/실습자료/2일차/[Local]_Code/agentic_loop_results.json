@@ -1,0 +1,54 @@
+{
+  "L0: LLM only": {
+    "label": "L0: LLM only",
+    "perfect": 0,
+    "acceptable": 7,
+    "missing": 0,
+    "incorrect": 23,
+    "n": 30,
+    "crag_score": -19.5,
+    "crag_score_norm": -0.65,
+    "avg_calls": 1.0,
+    "avg_tokens": 492.8333333333333,
+    "elapsed_sec": 276.0266559123993
+  },
+  "L1: single-pass RAG": {
+    "label": "L1: single-pass RAG",
+    "perfect": 1,
+    "acceptable": 5,
+    "missing": 17,
+    "incorrect": 7,
+    "n": 30,
+    "crag_score": -3.5,
+    "crag_score_norm": -0.11666666666666667,
+    "avg_calls": 2.0,
+    "avg_tokens": 1790.6666666666667,
+    "elapsed_sec": 103.74387407302856
+  },
+  "L2: RAG + self-verify": {
+    "label": "L2: RAG + self-verify",
+    "perfect": 2,
+    "acceptable": 3,
+    "missing": 22,
+    "incorrect": 3,
+    "n": 30,
+    "crag_score": 0.5,
+    "crag_score_norm": 0.016666666666666666,
+    "avg_calls": 3.0,
+    "avg_tokens": 2991.2,
+    "elapsed_sec": 121.11770629882812
+  },
+  "L3: agentic loop (router)": {
+    "label": "L3: agentic loop (router)",
+    "perfect": 3,
+    "acceptable": 5,
+    "missing": 17,
+    "incorrect": 5,
+    "n": 30,
+    "crag_score": 0.5,
+    "crag_score_norm": 0.016666666666666666,
+    "avg_calls": 8.366666666666667,
+    "avg_tokens": 6700.333333333333,
+    "elapsed_sec": 272.06991720199585
+  }
+}
